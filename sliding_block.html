@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title> www.PixelForLife.com - Sliding Block </title>
+
+<style type="text/css">
+body { font: 13px sans-serif; }
+
+#montage-wrap	{ width: 820px; height: 200px; }
+.montage-block	{ width: 200px; height: 200px; float: left; display: block; overflow: hidden; position: relative; 
+		margin: 0 4px 0 0; background: white; border: 1px solid #666;}
+.montage-block:last-child    { margin: 0; } /* removes margin on last block */
+
+#block1	{ width: 200px; height: 200px; position: absolute; display: block;
+		background: url(images/home1.jpg) no-repeat; 
+		
+		-webkit-transition: top .3s ease-in-out; }
+		
+.montage-block:hover #block1 	{ top: -150px; }
+		
+.thumb_content	{ padding: 70px 15px 0 15px; color: #777; }
+.thumb_content h1	{ margin: 0 0 5px 0; color: #666; font-size: 14px; }
+
+
+</style>
+</head>
+<body>
+
+<div id="montage-wrap">
+
+	<div class="montage-block">
+		<span id="block1"></span>
+		<div class="thumb_content">
+			<h1>Sample Title</h1>
+			<p>This is some sample title. yay for text.</p>
+		</div>	
+	</div> <!-- block end -->
+
+    <!-- A sample Block -->
+	<div class="montage-block">
+		<span id="block1"></span>
+		<div class="thumb_content">
+			<h1>Sample Title</h1>
+			<p>This is some sample title. yay for text.</p>
+		</div>	
+	</div> <!-- block end -->
+
+</div> <!-- montage wrap -->
+
+
+</body>
+</html>

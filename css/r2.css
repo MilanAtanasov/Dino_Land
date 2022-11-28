@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.r2s1 {
+	background-color:#5E5A58;
+}
+
+.r2s1h1 {
+	font-size:30px;
+	padding:20px 0 0 30px;
+	letter-spacing:1px;
+	margin:0;
+}
+
+.r2s1h2 {
+	font-size:15px;
+	padding:13px 0 13px 30px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	line-height:20px;
+	margin:0;
+}
+
+.r2s1h2 a {
+	text-decoration:none;
+	color:#fff;
+	transition:all 0.7s ease 0s;
+}
+
+.r2s1h2 a:hover {
+	color:#999;
+}
+
+.r2s2h1:hover {
+	color:#EBC36C;
+}
+
+.r2s2numbers {
+	color:#EBC36C;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.r2s1h1,.r2s1h2,.r2s1h3 {
+		padding-left: 15px;
+	}
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.r4s123 {
+	background-color:#EBC36C;
+	transition: all 0.5s ease 0s;
+}
+
+.r4s123:hover {
+	background-color:#EBECE7;
+	color:#444140;
+}
+
+.r4s123:hover .r4s123h3 {
+	color:#7F7C7B;
+}
+
+.r4s123h1 {
+	padding:20px 0 0 30px;
+	margin:0;
+	font-size:36px;
+}
+
+.r4s123h2 {
+	padding:10px 0 0 30px;
+	margin:0;
+	font-size:16px;
+}
+
+.r4s123h3 {
+	padding:10px 0 0 30px;
+	margin:0;
+	font-size:14px;
+	color:#FFF0D0;
+}
+
+#text {
+	transition: all 0.9s ease 0s;
+	min-height:60px;
+}
+
+#text:hover {
+	min-height:89%;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.r4s123h3 {
+		padding: 8px 15px 0 30px;
+		font-size: 14px;
+	}
+}

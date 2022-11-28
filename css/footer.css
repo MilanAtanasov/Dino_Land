@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footer {
+	max-width:1200px;
+	margin:auto;
+	overflow:hidden;
+	padding:10px 0;
+}
+
+.flogo {
+	text-align:center;
+	float:left;
+	padding:10px 5px;
+	border: 2px solid;
+	color:#EBC36C;
+	margin:0;
+	font-size:50px;
+	line-height:40px;
+}
+
+.fcopyright {
+	float:left;
+	padding:20px;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.footer {
+		max-width: 960px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+
+    .footer{
+        width:90%;
+    }
+    .flogo {
+        font-size: 40px;
+    }
+}

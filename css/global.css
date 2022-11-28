@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../images/bg_home1.jpg);
+	font-family: 'Slabo 27px', serif;
+	margin:0px;
+	color:#fff;
+	letter-spacing:1px;
+}
